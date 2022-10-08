@@ -1,0 +1,227 @@
+/* PC */
+@media (min-width:64em) { /*64em = 1024px*/
+    
+}
+
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em ) { /*63.9375em = 739px,740px=46.25em*/
+
+    #header .nav {
+        height: 114px;
+    }
+
+    #header .background .text {
+        font-size: 70px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header .background .cloud1 {
+        position: absolute;
+        width:300px;
+        top: 30%;
+        left: 10%;
+    }
+
+    #header .background .cloud2 {
+        position: absolute;
+        width:400px;
+        top: 38%;
+        left: 55%;
+    }
+
+    #about .list-item .myPic {
+        padding-top: 130px;
+        width: 50%;
+    }
+
+    #about .list-item .infor {
+        width: 50%;
+    }
+
+    #container #contact {
+        padding: 150px 5%;
+    }
+
+    #contact .body-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact .body-contact .contact-infor {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 100px;
+    }
+
+    #contact .body-contact .contact-infor p {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    #contact .body-contact .send-mess {
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media (max-width:46.8175em ) {  /*46.8175em =739px*/
+
+    .scroll-line {
+        margin-top: 74px;
+    }
+
+    #header .nav {
+        padding: 0 30px;
+        width: 100%;
+    }
+
+    #header .nav .my-logo img {
+        width: 70px;
+    }
+
+    #header .nav .nav-infor li{
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    #header .background .text {
+        font-size: 40px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header .background .cloud1 {
+        position: absolute;
+        width:200px;
+        top: 30%;
+        left: 5%;
+    }
+
+    #header .background .cloud2 {
+        position: absolute;
+        width:300px;
+        top: 38%;
+        left: 45%;
+    }
+
+    .background .footer-bckgr {
+        height: 400px;
+    }
+
+    #container .header-con {
+        height: 400px;
+    }
+
+    #container .name {
+        font-size: 20px;
+    }
+
+    #container .introduce {
+        font-size: 15px;
+        height: 92vh;
+    }
+
+    #container .introduce h4 {
+        font-size: 13px;
+    }
+
+    #about {
+        width: 100%;
+        max-width: 100%;
+        min-height: 160vh;
+
+    }
+
+    .about .list-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #about .list-item .myPic {
+        width: 50% !important;
+        margin-left: 10px;
+    }
+
+    #about .list-item .myPic .myPic-cover {
+        width: 400px ;
+        height: 300px;
+    }
+
+    .about .list-item .myPic .wavedot {
+        right: -30px;
+        width: 150px;
+    }
+
+    #about .list-item .myPic .myPic-cover img:nth-child(1) {
+        /* width: 100px; */
+    }
+
+    .about .list-item .infor {
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .about .infor .infor-container {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .about .infor .infor-container .icon {
+        font-size: 50px;
+        padding-right: 20px ;
+    }
+
+    #container #contact {
+        padding: 150px 5%;
+        height: 150vh;
+    }
+
+    #contact .body-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact .body-contact .contact-infor {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 100px;
+    }
+
+    #contact .body-contact .contact-infor p {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #contact .body-contact .send-mess {
+        width: 80%;
+    }
+
+    #footer {
+        height: 100px;
+    }
+
+    #footer p {
+        font-size: 30px;
+    }
+}
